@@ -55,7 +55,7 @@ function calculateTotalPerUser(user) {
 function userBalanceMessage(name, balance) {
     creditOrDebit = balanceCreditOrDebit(balance)
 
-    console.log(`${name} has ${creditOrDebit} balance of ${balance}`)
+    console.log(`${name} has ${creditOrDebit} balance of ${balance.toFixed(2)}`)
 }
 
 
