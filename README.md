@@ -41,3 +41,5 @@ Desafios para fortalecer alguns conceitos, entre eles:
 
 :: **Usuários e tecnologias & Busca por tecnologia** : usuarios-tecnologias.js | Lista usuários e verifica qual desses usuários utilizam a tecnologia CSS.
 
+:: **Soma de despesas e receitas** : soma-receita-despesas.js | Calcula saldo dado receitas e despesas de usuários.
+
