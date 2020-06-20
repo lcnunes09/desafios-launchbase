@@ -39,7 +39,7 @@ function userCSSProgrammer(users) {
 }
 
 function messageUserTechStack(user) {
-    console.log(`${user.name}'s Tech Stack: ${user.technologies}`)
+    console.log(`${user.name}'s Tech Stack: ${user.technologies.join(", ")}`)
 }
 
 function messageUserIsCSSProgrammer(user) {
