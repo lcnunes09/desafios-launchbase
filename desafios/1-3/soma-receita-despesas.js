@@ -1,63 +1,70 @@
-const usuarios = [
+const users = [
     {
-      nome: "Salvio",
-      receitas: [115.3, 48.7, 98.3, 14.5],
-      despesas: [85.3, 13.5, 19.9]
+        name: "Salvio",
+        incomes: [115.3, 48.7, 98.3, 14.5],
+        expenses: [85.3, 13.5, 19.9]
     },
     {
-      nome: "Marcio",
-      receitas: [24.6, 214.3, 45.3],
-      despesas: [185.3, 12.1, 120.0]
+        name: "Marcio",
+        incomes: [24.6, 214.3, 45.3],
+        expenses: [185.3, 12.1, 120.0]
     },
     {
-      nome: "Lucia",
-      receitas: [9.8, 120.3, 340.2, 45.3],
-      despesas: [450.2, 29.9]
+        name: "Lucia",
+        incomes: [9.8, 120.3, 340.2, 45.3],
+        expenses: [450.2, 29.9]
     }
 ]
 
-function calculaSaldo(receitas, despesas) {
-    return saldo = receitas - despesas
-}
+function sumValues(numbers) {
+    let sum = 0
 
-function somaNumeros(numeros) {
-    let soma = 0
-
-    numeros.forEach(element => {
-        soma = soma + element
+    numbers.forEach(number => {
+        sum = sum + number
     })
 
-    return soma
+    return sum
 }
 
-function saldoPositivoOuNegativo(saldo) {
-    if (saldo >= 0) {
-        positivoOuNegativo = ' POSITIVO '
+function calculateBalance(incomes, expenses) {
+    return balance = incomes - expenses
+}
+
+function balanceCreditOrDebit(balance) {
+    if (balance >= 0) {
+        creditOrDebit = 'CREDIT'
     } else {
-        positivoOuNegativo = ' NEGATIVO '
+        creditOrDebit = 'DEBIT'
     }
 
-    return positivoOuNegativo
+    return creditOrDebit
 }
 
-function totalUsuario(usuarios){
-    usuarios.forEach(element => {
-        let totalReceitas = 0
-        let totalDespesas = 0
+function calculateTotalPerUser(user) {
+    let totalIncomes = 0
+    let totalExpenses = 0
 
-        totalReceitas = somaNumeros(element.receitas)
-        totalDespesas = somaNumeros(element.despesas)
-        
-        saldoUsuario = calculaSaldo(totalReceitas, totalDespesas)    
-        
-        mensagemUsuario(element.nome, saldoUsuario)
+    totalIncomes = sumValues(user.incomes)
+    totalExpenses = sumValues(user.expenses)
+
+    userBalance = calculateBalance(totalIncomes, totalExpenses)
+
+    return userBalance
+}
+
+function userMessage(name, balance) {
+    creditOrDebit = balanceCreditOrDebit(balance)
+
+    console.log(`${name} has ${creditOrDebit} balance of ${balance}`)
+}
+
+
+function totalUsers(users) {
+    users.forEach(user => {
+        balanceUser = calculateTotalPerUser(user)
+        userMessage(user.name, balanceUser)
     });
 }
 
-function mensagemUsuario(nome, saldo){
-    positivoOuNegativo = saldoPositivoOuNegativo(saldo)
+totalUsers(users)
 
-    console.log(`${nome} possui saldo ${positivoOuNegativo} de ${saldo}`)
-}
-
-totalUsuario(usuarios)
