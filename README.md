@@ -27,3 +27,14 @@ Desafios para fortalecer alguns conceitos, entre eles:
 :: **Construção e Impressão de Objetos** : construcao-impressao-objetos.js | Constrói e imprime o objeto da Empresa Rockseat.
 
 :: **Vetores e Objetos** : vetores-objetos.js | Constrói vetor de pessoa desenvolvedora e tecnologias que trabalha.
+
+
+##  Desafio 1-3: Funções e estruturas de repetição 
+
+Desafios para fortalecer alguns conceitos, entre eles:
+
+- Funções e métodos;
+- Estruturas de repetição;
+- Escopos.
+
+
