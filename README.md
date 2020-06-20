@@ -37,4 +37,7 @@ Desafios para fortalecer alguns conceitos, entre eles:
 - Estruturas de repetição;
 - Escopos.
 
+📆 20 Junho 2020
+
+:: **Usuários e tecnologias & Busca por tecnologia** : usuarios-tecnologias.js | Lista usuários e verifica qual desses usuários utilizam a tecnologia CSS.
 
