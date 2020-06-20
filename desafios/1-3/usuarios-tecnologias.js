@@ -5,9 +5,26 @@ const usuarios = [
 ]
 
 function imprimirUsuarios(usuario) {
-    for (i = 0; i < usuario.length; i++){
-        console.log(`${usuario[i].nome} trabalha com ${usuario[i].tecnologias}`)
-    }
+    console.log(`${usuario[i].nome} trabalha com ${usuario[i].tecnologias}`)
 }
 
-imprimirUsuarios(usuarios)
+function checaSeUsuarioUsaCSS(tecnologias){
+    for (j = 0; j < tecnologias.length; j++){
+        if (tecnologias[j] === 'CSS') {
+            return true
+        } 
+    }
+
+    return false
+}
+
+function usuariosTecnologias(usuarios){
+    for (i = 0; i < usuarios.length; i++) {
+        usuarioTrabalhaComCSS = checaSeUsuarioUsaCSS(usuarios[i].tecnologias)
+        if (usuarioTrabalhaComCSS) {
+            console.log(`O usuário ${usuarios[i].nome} trabalha com CSS`);
+        } 
+    } 
+}
+
+usuariosTecnologias(usuarios)
