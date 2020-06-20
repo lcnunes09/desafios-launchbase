@@ -52,19 +52,19 @@ function calculateTotalPerUser(user) {
     return userBalance
 }
 
-function userMessage(name, balance) {
+function userBalanceMessage(name, balance) {
     creditOrDebit = balanceCreditOrDebit(balance)
 
     console.log(`${name} has ${creditOrDebit} balance of ${balance}`)
 }
 
 
-function totalUsers(users) {
+function balanceUsers(users) {
     users.forEach(user => {
         balanceUser = calculateTotalPerUser(user)
-        userMessage(user.name, balanceUser)
+        userBalanceMessage(user.name, balanceUser)
     });
 }
 
-totalUsers(users)
+balanceUsers(users)
 
