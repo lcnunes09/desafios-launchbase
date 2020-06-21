@@ -29,7 +29,7 @@ Desafios para fortalecer alguns conceitos, entre eles:
 :: **Vetores e Objetos** : vectors-objects.js | Constrói vetor de pessoa desenvolvedora e tecnologias que trabalha.
 
 
-##  Desafio 1-3: Funções e estruturas de repetição 
+##  Desafio 1-3: Aplicação: Operações bancárias 
 
 Desafios para fortalecer alguns conceitos, entre eles:
 
@@ -43,3 +43,15 @@ Desafios para fortalecer alguns conceitos, entre eles:
 
 :: **Soma de despesas e receitas** : user-balance.js | Calcula saldo dado receitas e despesas de usuários.
 
+##  Desafio 1-4: Funções e estruturas de repetição 
+
+Desafios para fortalecer alguns conceitos, entre eles:
+
+- Booleanos;
+- Organização;
+- Padronização;
+- Escrita.
+
+📆 20 Junho 2020
+
+:: **Transações bancárias** : bank-operations.js | Adiciona transações, atualiza o saldo, verifica a maior transação, verifica quantidade total de transações.
