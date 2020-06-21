@@ -55,3 +55,7 @@ Desafios para fortalecer alguns conceitos, entre eles:
 📆 20 Junho 2020
 
 :: **Transações bancárias** : bank-operations.js | Adiciona transações, atualiza o saldo, verifica a maior transação, verifica quantidade total de transações.
+
+##  Desafio 2: Criando página HTML CSS - Rockseat
+
+:: **Página Rockseeat**: index.html | Criação de página contendo um menu de navegação com: Comunidade, Email, Telefone.
