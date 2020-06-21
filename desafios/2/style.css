@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --color-dark-purple: rgb(113, 89, 193);
+    --color-purple:rgb(175, 158, 230);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: var(--color-dark-purple);
+    border-bottom: 4px solid var(--color-purple);
+    padding: 30px;
+}
+
+.links {
+    text-align: center;
+    padding: 30px;
+}
+
+.links a {
+    color: var(--color-purple);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 30px;
+}
+
+.links a:hover {
+    color: white;
+    transition: all 150ms linear 0s;
+    border-top: 2px solid white;
+}
