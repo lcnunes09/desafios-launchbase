@@ -37,6 +37,6 @@ header {
 
 .links a:hover {
     color: white;
-    transition: all 150ms linear 0s;
+    transition: all 350ms linear 0s;
     border-top: 2px solid white;
 }
