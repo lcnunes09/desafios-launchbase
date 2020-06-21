@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@700&family=Roboto&display=swap');
 
 :root {
     --color-dark-purple: rgb(113, 89, 193);
@@ -20,11 +20,35 @@ header {
     background-color: var(--color-dark-purple);
     border-bottom: 4px solid var(--color-purple);
     padding: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 40px;
+    border-right: 1px solid var(--color-purple);
+}
+
+.logo p {
+    color: white;
+    font-size: 28px;
+    line-height: 38px;
+    padding-left: 20px;
 }
 
 .links {
     text-align: center;
+    justify-content: center;
     padding: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .links a {
@@ -39,4 +63,62 @@ header {
     color: white;
     transition: all 350ms linear 0s;
     border-top: 2px solid white;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15px;
+}
+
+.wrapper .image {
+    align-content: center;
+    padding-top: 70px;
+}
+
+.wrapper .description {
+    max-width: 400px;
+    padding: 70px 50px;
+}
+
+.wrapper .description p {
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Amaranth', sans-serif;
+    color: var(--color-dark-purple);
+    padding-bottom: 20px;
+}
+
+.wrapper .description ul {
+    padding-left: 4px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Amaranth', sans-serif;
+    list-style: none;
+    color: var(--color-purple);
+}
+.wrapper .description ul li img {
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 150px;
+}
+
+footer a {
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 30px;
+    color: var(--color-purple);
+}
+
+footer a:hover {
+    color: var(--color-dark-purple);
+    border-bottom: 1px solid var(--color-purple);
+    transition: color 400ms;
 }
