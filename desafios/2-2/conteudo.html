@@ -6,6 +6,8 @@
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="conteudo.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -24,8 +26,8 @@
     </header>
 
     <div class="wrapper">
-       <div class="classes">
-           <div class="starter">
+       <div class="cards">
+           <div class="card starter" id="starter">
                 <div class="conteudo">
                     <div class="count">
                         <p class="purple-starter">01</p>
@@ -39,7 +41,7 @@
                     <div class="price-free">Gratuito</div>
                 </div>
            </div>
-           <div class="launchbase">
+           <div class="card launchbase" id="launchbase">
                 <div class="conteudo">
                     <div class="count">
                         <p class="orange-launchbase">02</p>
@@ -53,7 +55,7 @@
                     <div class="price-paid">Pago</div>
                 </div>
            </div>
-           <div class="gostack">
+           <div class="card gostack" id="gostack">
                 <div class="conteudo">
                     <div class="count">
                         <p class="green-gostack">03</p>
@@ -69,5 +71,19 @@
            </div>
        </div>
     </div>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <a class="close-modal">
+                <i class="material-icons">close</i>
+            </a>
+
+            <div class="modal-content">
+                <iframe src="" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
