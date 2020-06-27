@@ -169,18 +169,34 @@
 
 .modal {
     background-color: white;
-    width: 90%;
-    height: 90%;
+    width: 70%;
+    height: 70%;
     margin: 5vh auto;
     position: relative;
 }
 
-.modal .close-modal {
+.maximize {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.modal .close-modal, .maximize .close-modal {
     color: black;
     position: absolute;
     right: 8px;
     top: 8px;
     cursor: pointer;    
+}
+
+.modal .maximize-modal, .maximize .maximize-modal  {
+    color: black;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    cursor: pointer;   
 }
 
 .modal-overlay.active{
@@ -192,5 +208,5 @@ iframe {
     width: 100%;
     height: 90%;
     position: absolute;
-    top: 5%;
+    top: 6%;
 }
