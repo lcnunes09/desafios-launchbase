@@ -40,6 +40,10 @@
     color: #111111;
 }
 
+.links a:hover {
+    font-weight: bold;
+}
+
 .wrapper {
     background: #FBDFDB;
     border-radius: 30px;
