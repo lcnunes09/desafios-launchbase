@@ -58,4 +58,10 @@ Desafios para fortalecer alguns conceitos, entre eles:
 
 ##  Desafio 2: Criando página HTML CSS - Rockseat
 
-:: **Página Rockseeat**: index.html | Criação de página contendo um menu de navegação com: Comunidade, Email, Telefone.
+:: **Página Rockseeat 1**: index.html | Criação de página contendo um menu de navegação com: Comunidade, Email, Telefone. 
+
+:: **Página Rockseeat 2**: [Página](https://lcnunes09.github.io/rockseat-page/) | [Repositório](https://github.com/lcnunes09/rockseat-page) | Criação de um novo layout, partindo de um protótipo do zero feito n Figma. Site contendo: Página de Sbre, Conteúdo (descrevendo os 3 cursos da Rockeseat: Starter, LaunchBase, GoStack) Comunidade, Email, Telefone. 
+
+##  Desafio 3: Criando página HTML CSS - Foodfy
+
+:: **Página Foodfy**: [Repositório](https://github.com/lcnunes09/rocketseat-foodfy) | Criação de página contendo página inicial, Sobre e página de Receitas.
