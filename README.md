@@ -56,16 +56,16 @@ Desafios para fortalecer alguns conceitos, entre eles:
 
 :: **Transações bancárias** : bank-operations.js | Adiciona transações, atualiza o saldo, verifica a maior transação, verifica quantidade total de transações.
 
-📆 26 Junho 2020
-
 ##  Desafio 2: Criando página HTML CSS - Rockseat
+
+📆 26 Junho 2020
 
 :: **Página Rockseeat 1**: index.html | Criação de página contendo um menu de navegação com: Comunidade, Email, Telefone. 
 
 :: **Página Rockseeat 2**: [Página](https://lcnunes09.github.io/rockseat-page/) | [Repositório](https://github.com/lcnunes09/rockseat-page) | Criação de um novo layout, partindo de um protótipo do zero feito n Figma. Site contendo: Página de Sbre, Conteúdo (descrevendo os 3 cursos da Rockeseat: Starter, LaunchBase, GoStack) Comunidade, Email, Telefone. 
 
-📆 28 Junho 2020
-
 ##  Desafio 3: Criando página HTML CSS - Foodfy
+
+📆 28 Junho 2020
 
 :: **Página Foodfy**: [Repositório](https://github.com/lcnunes09/rocketseat-foodfy) | Criação de página contendo página inicial, Sobre e página de Receitas.
